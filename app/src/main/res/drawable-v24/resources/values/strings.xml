@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- home_screen strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="welcome_back__string">Welcome Back!</string>
+	<string name="wade_warren_string">Wade Warren</string>
+	<string name="search_here____string">Search here...</string>
+	<string name="new_items_ek1_string">New Items</string>
+	<string name="view_all_string">View All</string>
+	<string name="chairs_string">Chairs</string>
+	<string name="tables_string">Tables</string>
+	<string name="sofas_string">Sofas</string>
+	<string name="lamps_string">Lamps</string>
+	<string name="pendants_string">Pendants</string>
+	<string name="poliframe_tuf____string">Poliframe tuf...</string>
+	<string name="___70_00_string">$ 70.00</string>
+	<string name="poliframe_tuf____ek1_string">Poliframe tuf...</string>
+	<string name="___115_00_string">$ 115.00</string>
+	<string name="poliframe_tuf____ek2_string">Poliframe tuf...</string>
+	<string name="___115_00_ek1_string">$ 115.00</string>
+	<string name="poliframe_tuf____ek3_string">Poliframe tuf...</string>
+	<string name="___115_00_ek2_string">$ 115.00</string>
+	<string name="home_ek1_string">Home</string>
+	<string name="wishlist_ek1_string">Wishlist</string>
+	<string name="cart_ek5_string">Cart</string>
+	<string name="user_ek1_string">User</string>
+	<string name="cult_70_s_armchair__matte_chair__string">Cult 70s Armchair, matte Chair.</string>
+	<string name="__85_00_string">$85.00</string>
+	<string name="review_96__string">Review(96)</string>
+	<string name="add_to_cart_string">Add To Cart</string>
+	<string name="_5_string">5</string>
+	<string name="color_string">Color</string>
+	<string name="total____425_00_string">Total : $425.00</string>
+	<string name="shopping_cart_string">Shopping Cart</string>
+	<string name="checkout_string">CHECKOUT</string>
+	<string name="total____250_00_string">Total : $250.00</string>
+	<string name="_3_items_string">3 Items</string>
+	<string name="leende_chair_string">Leende Chair</string>
+	<string name="color___black_string">Color - Black</string>
+	<string name="x2_string">x2</string>
+	<string name="__125_00_string">$125.00</string>
+	<string name="_2_string">2</string>
+	<string name="morgon_table_lamp_string">Morgon Table Lamp</string>
+	<string name="color___white_string">Color - White</string>
+	<string name="x1_string">x1</string>
+	<string name="__75_00_string">$75.00</string>
+	<string name="_1_string">1</string>
+	<string name="mangata_pendant_la___string">Mangata Pendant La..</string>
+	<string name="color___olive_string">Color - Olive</string>
+	<string name="x1_ek1_string">x1</string>
+	<string name="__50_00_string">$50.00</string>
+	<string name="_3_string">3</string>
+</resources>

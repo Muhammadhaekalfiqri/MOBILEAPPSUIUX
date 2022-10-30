@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/GOODMORNING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOOD MORNING"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/MUHAMMADHAEKALFIQRI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD HAEKAL FIQRI"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/GOODMORNING"/>
+
+    <ImageView
+        android:id="@+id/pencarian"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="260dp"
+        android:src="@drawable/user1"></ImageView>
+
+
+
+    <ImageView
+        android:id="@+id/headphones1"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@id/TopProduct"
+        android:src="@drawable/headphone1"></ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@id/MUHAMMADHAEKALFIQRI"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#00BCD4"
+        android:hint="Headphone"
+        android:textSize="15dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:drawableRight="@drawable/ic_baseline_find_replace_24"
+        android:drawablePadding="28dp" />
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/pencarian"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#00BCD4"
+        android:gravity="left"
+        android:text="all"
+        android:textColor="@color/black"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/earbud"
+        android:layout_width="136dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/pencarian"
+        android:layout_alignRight="@id/headphones"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="-145dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/headphones"
+        android:backgroundTint="#00BCD4"
+        android:text="earbuds"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/headphones"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/pencarian"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/all"
+        android:backgroundTint="#00BCD4"
+        android:text="Headphones"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/TopProduct"
+        android:layout_width="258dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/all"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:text="Top product"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/showall"
+        android:layout_width="118dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/earbud"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="12dp"
+        android:text="show all"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/headphones2"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="260dp"
+        android:layout_below="@id/TopProduct"
+        android:src="@drawable/headphonne2"></ImageView>
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="260dp"
+        android:layout_below="@id/headphones1"
+        android:src="@drawable/img_1" />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@id/headphones1"
+        android:src="@drawable/img_2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/socialicon"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img">
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
